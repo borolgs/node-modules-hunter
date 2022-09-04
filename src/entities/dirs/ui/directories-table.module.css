@@ -1,0 +1,42 @@
+.table {
+  width: 100%;
+}
+
+.table th {
+  position: sticky;
+}
+
+.table th {
+  top: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 15;
+}
+
+.table th {
+  border-bottom: 1px solid rgba(17, 20, 24, 0.15);
+  background-color: white;
+}
+
+.table td {
+  max-width: 600px;
+  box-shadow: none !important;
+}
+
+.cell {
+  padding: 0 !important;
+}
+
+.cell > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.sort-icon {
+  visibility: hidden;
+}
+
+.sort-active {
+  visibility: visible;
+}

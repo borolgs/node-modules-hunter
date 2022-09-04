@@ -1,0 +1,29 @@
+.root {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+  padding-top: 10px;
+  gap: 5px;
+}
+
+.root > *:not(:last-child) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.root .header {
+  grid-row: 1 / 2;
+}
+
+.controls {
+  grid-row: 2 / 3;
+}
+
+.content {
+  grid-row: 3/ 4;
+  overflow-y: auto;
+}
+
+.footer {
+  grid-row: 4/ 5;
+}
